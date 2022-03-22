@@ -1,0 +1,59 @@
+* {
+  font-family: 'Nunito Sans';
+}
+
+main header {
+  background: linear-gradient(236.85deg, #143157 27.26%, #536c8b 96.03%);
+  text-align: center;
+  
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 1em 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main {
+  text-align: center;
+  background-color: rgb(158, 139, 139);
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+section figure img {
+  border-radius: 50%;
+  width: 144px;
+  height: 144px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section figure {
+  padding: 64px;
+}
+
+figcaption {
+  font-weight: 600;
+  font-size: 20px;
+  color: #e0d7d7;
+}
+
+section ul {
+  margin: 0 auto;
+  width: 30%;
+}
+
+ul li {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 32px 0px 0px;
+  padding: 19px 0;
+  margin: 16px 0;
+}
+
+li a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #5c5c5c;
+  text-decoration: none;
+}
